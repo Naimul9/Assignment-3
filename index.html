@@ -101,20 +101,28 @@
 
     <!-- banner section -->
 
-    <!-- <section class="my-16 max-w-[1170px] mx-auto ">
+    <section class="my-16 lg:w-[1170px] w-11/12 mx-auto ">
 
-        <div class="carousel  w-[1170px] ">
+        <div class="carousel  lg:w-[1170px]  ">
 
 
 
-            <div id="slide1" class="carousel-item relative lg:w-full">
+            <div id="slide1" class="carousel-item relative w-full ">
              
-                <img src="Images/1.png" class="w-full " />
+          <div >
+            <div > <img src="Images/1.png" class=" w-full" /></div>
 
-                <div class="bg-black text-white rounded-2xl w-[566px] h-[165px] absolute  top-[360px] left-[572px] items-center p-8">
-                    <h4 class="text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
-                <p class="font-medium text-[#FFFFFF99] text-opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                </div>
+              <div class="lg:flex hidden">
+                <div class="bg-black text-white rounded-2xl lg:w-[566px] lg:h-[165px] lg:absolute  top-[360px] left-[572px] items-center p-8 ">
+                  <h4 class="text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
+              <p class="font-medium text-[#FFFFFF99] text-opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+
+              </div>
+
+              </div>
+
+          </div>
+
 
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
@@ -123,15 +131,15 @@
             </div> 
 
             
-            <div id="slide2" class="carousel-item relative w-full">
+            <div id="slide2" class="carousel-item relative w-full ">
 
 
-              <img src="Images//1.png" class="w-full" />
+             <div> <img src="Images//1.png" class="lg:w-full " /></div>
 
-  <div class="bg-black text-white rounded-2xl w-[566px] h-[165px] absolute z-10 top-[360px] left-[572px] items-center p-8">
+  <!-- <div class="bg-black text-white rounded-2xl  lg:w-[566px] w-none lg:h-[165px] lg:absolute z-10 lg:top-[360px] lg:left-[572px] items-center p-8">
                     <h4 class="text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
                 <p class="font-medium text-[#FFFFFF99] text-opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                </div>
+                </div> -->
 
 
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -142,25 +150,35 @@
             
           </div>
 
-    </section> -->
+          <div class="bg-black text-white rounded-2xl lg:w-[566px] lg:h-[165px] h-[137px] items-center lg:p-8 p-4 ">
+            <h4 class="lg:text-2xl text-[18px] font-extrabold mb-4">Meet all the heroes from the field</h4>
+        <p class="text-sm font-medium text-[#FFFFFF99] text-opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+
+        </div>
+          
+
+    </section>
 
     <!-- professional hockey -->
 
     <section class="my-[100px] ">
 
-        <div class="lg:w-[1170px] mx-w-full mx-auto border border-dashed border-r-0 border-l-0 py-8 ">
+        <div class="lg:w-[1170px] w-full mx-auto border border-dashed border-r-0 border-l-0 py-8 ">
 
             <h2 class=" text-[22px] lg:text-[36px] font-extrabold mb-6 text-center">Professional Hockeys Club</h2>
-            <p class="text-center text-sm lg:text-base lg:w-[607px] w-[292px] mx-auto font-medium text-[#13131899]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="text-center text-sm lg:text-base lg:w-[607px] w-[292px] mx-auto font-medium text-[#13131899] ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         </div>
 
         <div class="my-12 lg:w-[1170px] lg:gap-4 gap-8 mx-auto relative flex flex-col lg:flex-row text-center ">
 
-<div class="">
+<div >
 
 <div class="lg:px-20 lg:w-full w-[120px] mx-auto">
-    <img  src="Images/Group 9.svg" alt="">
-    <p class="text-[28px] font-extrabold absolute top-10 lg:left-8 left-24 px-20">87%</p>
+
+
+  <div class="radial-progress text-[#FF4240]" style="--value:87; --size:8rem; --thickness: 12px;" role="progressbar">
+      <span class="text-2xl font-extrabold text-black "> 87%</span>
+    </div>
     </div>
 
     
@@ -172,11 +190,15 @@
 
 </div>
 
-<div class="relative">
+<div >
 
-<div class="lg:px-20 px-36"><img  src="Images/Group 9 (1).svg" alt="">
+  <div class="lg:px-20 lg:w-full w-[120px] mx-auto">
 
-    <p class="lg:px-20 px-36 text-[28px] font-extrabold absolute top-10 left-8   ">95%</p></div>
+
+    <div class="radial-progress text-[#49D293]" style="--value:95; --size:8rem; --thickness: 12px;" role="progressbar">
+        <span class="text-2xl font-extrabold text-black "> 95%</span>
+      </div>
+      </div>
 
 <div class="mt-6">
     <h3 class="font-semibold text-[20px] mb-4">Senior Player</h3>
@@ -187,12 +209,15 @@
             </div>
             
             
-<div class="relative">
+<div >
 
-<div class="lg:px-20 px-36">
-    <img  src="Images/Group 9 (2).svg" alt="">
-<p class=" lg:px-20 px-36 text-[28px] font-extrabold absolute top-10 left-8 ">90%</p>
-</div>
+  <div class="lg:px-20 lg:w-full w-[120px] mx-auto">
+
+
+    <div class="radial-progress text-[#FFB546]" style="--value:90; --size:8rem; --thickness: 12px;" role="progressbar">
+        <span class="text-2xl font-extrabold text-black "> 90%</span>
+      </div>
+      </div>
 
 <div class="mt-6">
     <h3 class="font-semibold text-[20px] mb-4">Training Ground</h3>
@@ -204,13 +229,15 @@
 
 
 
-<div class="relative">
+<div >
 
-<div class="lg:px-20 px-36">
-    <img  src="Images/Group 9 (3).svg" alt="">
-<p class=" lg:px-20 px-36 text-[28px] font-extrabold absolute top-10 left-8">80%</p>
-</div>
+  <div class="lg:px-20 lg:w-full w-[120px] mx-auto">
 
+
+    <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:8rem; --thickness: 12px;" role="progressbar">
+        <span class="text-2xl font-extrabold text-black "> 80%</span>
+      </div>
+      </div>
 <div class="mt-6">
     <h3 class="font-semibold text-[20px] mb-4">Prayer Facility</h3>
     <p class="lg:w-full w-[250px] mx-auto">Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -235,10 +262,12 @@
         </div>
 
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-6">
+        <div class="flex flex-col gap-6">
 
-<div class="relative "> 
-    <img class="lg:h-auto h-[244px] lg:w-auto w-[393px] mx-auto" src="Images/2.png" alt="">
+<div class="flex flex-col lg:flex-row  lg:gap-6 ">
+
+  <div class="relative mb-6 "> 
+    <img class="lg:h-auto h-[244px] lg:w-auto w-11/12 mx-auto" src="Images/2.png" alt="">
 
     <div class="absolute lg:top-[95px] top-[30px] lg:left-[40px] left-[40px]  text-white">
 
@@ -254,7 +283,7 @@
 
 
 <div class="relative">
-    <img class="lg:h-auto h-[244px] lg:w-auto w-[393px] mx-auto" src="Images/3.png" alt="">
+    <img class="lg:h-auto h-[244px] lg:w-auto w-11/12 mx-auto" src="Images/3.png" alt="">
 
     <div class="absolute lg:top-[95px] top-[30px] lg:left-[40px] left-[40px]  text-white">
 
@@ -266,16 +295,28 @@
 
 </div>
 
-<div class="relative ">
-    <img class="lg:h-auto h-[244px] lg:w-auto w-[393px] mx-auto rounded-2xl" src="Images/4.png" alt="">
 
-    <div class="absolute lg:top-[95px] top-[30px] lg:left-[40px] left-[40px]  text-white">
+</div>
+
+
+
+<div>
+
+
+  <div class="relative">
+    <img class="lg:h-auto h-[244px] lg:w-auto w-11/12 mx-auto rounded-2xl grid-cols-2" src="Images/4.png" alt="">
+
+    <div class="absolute lg:top-[203px] top-[30px] lg:left-[40px] left-[40px]  text-white">
 
         <h3 class="lg:text-[28px] text-[20px] font-extrabold mb-[16px]">Junior Program</h3>
         <p class="mb-[24px] lg:w-[495px] w-[277px] lg:text-base text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
             <button class="btn bg-reddish text-white" >Register Now!</button>
     </div>
+
+
+</div>
+
 
 </div>
 
@@ -303,7 +344,7 @@
 <!-- 1st card -->
 <div class="border rounded-2xl lg:w-[573px]  w-[393px]  lg:h-auto h-[535px] mx-auto">
     <div class="hero-content flex-col lg:flex-row">
-      <img src="Images/5.png" class="lg:w-auto w-[350px] lg:h-auto h-[280px] rounded-lg " />
+      <img src="Images/5.png" class="lg:w-auto w-[350px] lg:h-auto h-[280px] rounded-lg  " />
       <div>
 
 <div class="flex gap-8 ">
@@ -660,13 +701,13 @@
 
     <div class="space-y-4">
   <p class="text-[20px] font-bold">Your Name</p>   
-  <input class=" lg:w-[324px] w-[393px] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="text" placeholder="Enter your full name" >
+  <input class=" lg:w-[324px] w-[95%] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="text" placeholder="Enter your full name" >
 </div>
 
 <div class="space-y-4">
   <p class="text-[20px] font-bold">Your Email</p>
 
-  <input class=" lg:w-[324px] w-[393px] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="email" name="" id="" placeholder="Enter your email">
+  <input class=" lg:w-[324px] w-[95%] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="email" name="" id="" placeholder="Enter your email">
 </div>
 
 
@@ -678,13 +719,13 @@
 
     <div class="space-y-4">
   <p class="text-[20px] font-bold">Subject</p>   
-  <input class=" lg:w-[324px] w-[393px] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="text" placeholder="Enter your full name" >
+  <input class=" lg:w-[324px] w-[95%] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="text" placeholder="Enter your full name" >
 </div>
 
 <div class="space-y-4 ">
   <p class="text-[20px] font-bold">Phone Number</p>
 
-  <input class=" lg:w-[324px] w-[393px] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="email" name="" id="" placeholder="Enter your email">
+  <input class=" lg:w-[324px] w-[95%] h-[64px] bg-[#131318] bg-opacity-[0.03] rounded-xl pl-5" type="email" name="" id="" placeholder="Enter your email">
 </div>
   </div>
 
@@ -693,10 +734,10 @@
 
   <div class="mt-6" >
     <p class="mb-4 text-[20px] font-bold">Message</p>
-    <input class="lg:w-[672px] w-[393px] h-[370px] bg-[#131318] bg-opacity-[0.03] rounded-2xl" type="text" >
+    <input class="lg:w-[672px] w-[95%] h-[370px] bg-[#131318] bg-opacity-[0.03] rounded-2xl" type="text" >
   </div>
   
-<button class="mt-8 btn bg-reddish border rounded-xl text-white lg:w-[672px] w-[393px] lg:h-[57px]">Send Message</button>
+<button class="mt-8 btn bg-reddish border rounded-xl text-white lg:w-[672px] w-[95%] lg:h-[57px]">Send Message</button>
 
 
 
@@ -720,7 +761,7 @@
 </div>
 
 
-<div class="border bg-[#131318] bg-opacity-[0.03] lg:w-[1170px] w-[393px] mx-auto lg:h-[150px] h-[140px]  rounded-2xl mt-12">
+<div class="border bg-[#131318] bg-opacity-[0.03] lg:w-[1170px] w-[95%] mx-auto lg:h-[150px] h-[140px]  rounded-2xl mt-12">
 
   <p class="text-2xl font-extrabold text-center pt-[35px]">Social Media</p>
 
@@ -745,15 +786,90 @@
 </section>
 
 
-
-
-
 </main>
 
+<!-- <footer class="footer p-10 bg-black text-[#FFFFFF99] text-base-content text-center flex justify-center lg:gap-[200px] lg:h-[454px] h-[869px] lg:pt-[100px]">
+ 
+ 
+<div>
 
-<footer>
+  <aside class="text-start"> 
+    <h3 class="text-[28px] font-extrabold text-white mb-4">Get In Touch</h3>
+    <p class="text-start lg:w-[346px] font-medium mb-[24px]">Dit amet consectetur. Condimentum  adipiscing  aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+ 
+<div class="flex items-center gap-2 mb-[18px]">
+  <img src="Images/mail.png" alt="">
+  <p>hockeys@support.com</p>
+</div>
 
-</footer>
+<div class="flex items-center gap-2">
+ <img src="Images/phone.png" alt="">
+  <p>(+62) 123-321-543</p>
+</div>
+  </aside> 
+
+
+</div>
+
+
+
+<div>
+   <!-- company -->
+   <nav class="space-y-3 text-start">
+    <div>  
+    <header class="mb-[29px] text-[18px] font-bold text-white">Company</header></div> 
+     <div> <a class="link link-hover">About us</a></div>
+    <div>
+      <a class="link link-hover">Leadership</a>
+    </div>
+      <div><a class="link link-hover">Careers</a></div>
+      <div><a class="link link-hover">News & Articles</a></div>
+      <div>
+        <a class="link link-hover">Legal Notice</a>
+      </div>
+    </nav> 
+
+</div>
+ 
+
+<div>  <!-- Support -->
+  <nav class="space-y-3 text-start">
+ <div>
+  <header class="mb-[29px] text-[18px] font-bold text-white">Support</header>
+ </div> 
+   <div> <a class="link link-hover">Help Center</a></div>
+ <div>   <a class="link link-hover">FAQ</a></div>
+  <div>  <a class="link link-hover">Ticket Support</a></div>
+   <div> <a class="link link-hover">Contact Us</a></div>
+  </nav></div>
+
+
+<div>
+   <!-- services -->
+   <nav class="space-y-3 text-start">
+    <div>
+      <header class="mb-[29px] text-[18px] font-bold text-white ">Services</header> 
+    </div>
+   <div>
+    <a class="link link-hover">Academy</a>
+   </div>
+    <div>
+      <a class="link link-hover">Group Lesson</a>
+    </div>
+    <div>
+      <a class="link link-hover">Private Lession</a>
+    </div>
+   <div>
+    <a class="link link-hover">Hockeys for kids</a>
+   </div>
+   <div>
+    <a class="link link-hover">Hockeys for Adult</a>
+   </div>
+  </nav>
+</div>
+
+ 
+</footer> -->
     
 </body>
 
